@@ -1,3 +1,5 @@
+ज़िंदगी में टांग अड़ा देते हैं।',
+]
 import { createHash } from 'crypto'
 import PhoneNumber from 'awesome-phonenumber'
 import { canLevelUp, xpRange } from '../lib/levelling.js'
@@ -26,7 +28,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         ? conn.user.jid
         : m.sender
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-  let pp = './Assets/Gurulogo.jpg'
+  let pp = 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg'
   let user = global.db.data.users[who]
   let { name, exp, diamond, lastclaim, registered, regTime, age, level, role, warn } =
     global.db.data.users[who]
@@ -163,3 +165,4 @@ const quotes = [
   'जीवन का असली मज़ा तो तब आता है, जब दूसरे आपकी ज़िंदगी जीने की कोशिश करते हैं।',
   'कुछ लोग तो इतने फालतू होते हैं, खुद की ज़िंदगी खुद ही नहीं जी पाते और दूसरों की ज़िंदगी में टांग अड़ा देते हैं।',
 ]
+  
