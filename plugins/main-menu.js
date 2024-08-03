@@ -513,7 +513,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
     },
   }
   const infoText = `
- ||   श्री   ||
+ ||   Yo!   ||
 > ${botname}  」\n
 - Hii ${name} Senpai
     
@@ -537,7 +537,7 @@ const handler = async (m, { conn, command, text, args, usedPrefix }) => {
 ⛥ *Uptime:* ${muptime}
 ⛥ *Database:*  ${totalreg}
 ╰──────────⳹
-> © Guru Sensei\n\n
+> © Vince Thongam\n\n
 ${readMore}
 乂───『 *I N F O  C M D*』───乂 
 │ *${totalfeatures}* Commands
@@ -576,16 +576,16 @@ ${readMore}
       mentionedJid: [m.sender],
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363178281296360@newsletter',
+        newsletterJid: '12036317828129newsletter',
         newsletterName: 'Click Here or u Gay',
         serverMessageId: -1,
       },
       forwardingScore: 999,
       externalAdReply: {
-        title: 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ',
+        title: 'Jarivs',
         body: 'ᴍᴇɴᴜ',
-        thumbnailUrl: 'https://i.pinimg.com/736x/67/4b/41/674b416d858ce262be0c53253b3f1dcc.jpg',
-        sourceUrl: 'https://guruapi.tech',
+        thumbnailUrl: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg',
+sourceUrl:'https://www.instagram.com/craftastic_land_',
         mediaType: 1,
         renderLargerThumbnail: false,
       },
@@ -618,56 +618,56 @@ handler.before = async (m, { conn }) => {
   if (choice === '1') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: botmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: botmenu },
       { quoted: fcontact }
     )
   } else if (choice === '2') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: ownermenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: ownermenu },
       { quoted: fcontact }
     )
   } else if (choice === '3') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '4') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: funmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: funmenu },
       { quoted: fcontact }
     )
   } else if (choice === '5') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: reactmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: reactmenu },
       { quoted: fcontact }
     )
   } else if (choice === '6') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: dlmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: dlmenu },
       { quoted: fcontact }
     )
   } else if (choice === '7') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: groupmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: groupmenu },
       { quoted: fcontact }
     )
   } else if (choice === '8') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: logomenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: logomenu },
       { quoted: fcontact }
     )
   } else if (choice === '9') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' },
         caption: stickermenu,
       },
       { quoted: fcontact }
@@ -675,50 +675,50 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '10') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: audiomenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: audiomenu },
       { quoted: fcontact }
     )
   } else if (choice === '11') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: newsmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: newsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '12') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: economy },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: economy },
       { quoted: fcontact }
     )
   } else if (choice === '13') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: animemenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: animemenu },
       { quoted: fcontact }
     )
   } else if (choice === '14') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: nsfwmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: nsfwmenu },
       { quoted: fcontact }
     )
   } else if (choice === '15') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: toolsmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: toolsmenu },
       { quoted: fcontact }
     )
   } else if (choice === '16') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: Aimenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: Aimenu },
       { quoted: fcontact }
     )
   } else if (choice === '17') {
     await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' },
+        image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' },
         caption: religionmenu,
       },
       { quoted: fcontact }
@@ -726,7 +726,7 @@ handler.before = async (m, { conn }) => {
   } else if (choice === '18') {
     await conn.sendMessage(
       m.chat,
-      { image: { url: 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/K.jpg' }, caption: pluginmenu },
+      { image: { url: 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg' }, caption: pluginmenu },
       { quoted: fcontact }
     )
   } else {
@@ -795,4 +795,5 @@ function ucapan() {
     res = 'Good Night 🌙'
   }
   return res
-}
+   }
+     
