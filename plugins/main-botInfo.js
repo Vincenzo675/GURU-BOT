@@ -65,15 +65,15 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *Vince Thongam*
 ▢ Instagram :
-  • https://instagram.com/asli_guru69
+  • https://instagram.com/Craftastic_land_
 ▢ GitHub :
-  • https://github.com/Guru322
+  • https://github.com/Vincenzo675
 ▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+  • t.me/ 
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • https://youtube.com/@Craftasticland
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
@@ -99,3 +99,4 @@ handler.tags = ['main']
 handler.command = ['info', 'infobot', 'botinfo']
 
 export default handler
+  
