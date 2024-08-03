@@ -75,11 +75,11 @@ global.packname = 'Jarvis'
 global.author = 'Vince'
 global.menuvid = 'https://i.imgur.com/IPyhdiW.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/craftastic_land_\n'
-global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
+global.dygp = 'https://Wa.me/+916909297247'
 global.fgsc = 'https://github.com/Guru322/GURU-BOT'
 global.fgyt = 'https://youtube.com/@craftasticland'
 global.fgpyp = 'https://youtube.com/@craftasticland'
-global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg'
+global.fglog = 'https://cdn.pixabay.com/photo/2024/06/20/17/03/fishing-8842590_1280.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
@@ -98,3 +98,4 @@ watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   import(`${file}?update=${Date.now()}`)
 })
+    
